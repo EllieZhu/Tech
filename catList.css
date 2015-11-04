@@ -1,0 +1,156 @@
+#techNav {
+	position:relative;
+	z-index:996;
+	}
+
+#techNav .button {
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#FFFFFF', endColorstr='#CCCCCC');
+	background: -webkit-gradient(linear, left top, left bottom, from(#FFFFFF), to(#CCCCCC)); 
+	background: -moz-linear-gradient(top,  #FFFFFF,  #CCCCCC);
+    	border: 1px solid #BBB;
+    	margin: 0 0 0 4px;
+    	padding: 5px 8px;
+    	vertical-align: top;
+	font-size:14px;
+}
+
+#techNav .button2 {
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#FFFFFF', endColorstr='#CCCCCC');
+	background: -webkit-gradient(linear, left top, left bottom, from(#FFFFFF), to(#CCCCCC)); 
+	background: -moz-linear-gradient(top,  #FFFFFF,  #CCCCCC);
+    	border: 1px solid #BBB;
+    	padding: 5px 6px;
+    	vertical-align: top;
+	font-size:1.3em;
+	color: #444;
+	width: 48%;
+    margin-right: 2px;
+    margin-top: 5px;
+}
+
+
+#techNav .button:hover, #techNav .button2:hover {
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#CCCCCC', endColorstr='#DCDFDF');
+	background: -webkit-gradient(linear, left top, left bottom, from(#CCCCCC), to(#DCDFDF)); 
+	background: -moz-linear-gradient(top,  #CCCCCC,  #DCDFDF);
+    	cursor: pointer;
+}
+
+#techNav .techSearch {
+	position:relative;
+	border-bottom:none;
+	}
+
+		#techNav .techSearch #search {
+			background:#F5F5F5;
+			margin:1.2em 0;
+			padding:.5em 1em;
+			border:1px solid #CCC;
+			}
+
+		#techNav .techSearch .catList .widget-toggle {
+    			list-style: none;
+ 			    color: #000;
+ 			    position:relative;
+				display:block;
+ 				color: #444;
+				background:#F5F5F5;
+				font-size: 1.3em;
+				padding:0.5em;
+				font-weight: normal;
+				border-bottom:1px solid #CCC;
+			}
+
+	  #techNav .techSearch .catList .widget-content {
+    			list-style: none;
+ 			    color: #000;
+ 			    position:relative;
+ 				color: #444;
+				background:#F5F5F5;
+				font-size: 1.3em;
+				padding:0.5em;
+				font-weight: normal;
+			}
+
+				#techNav .techSearch .catList div .val_sum {
+					position:absolute;
+					right:15px;
+ 					color: #777;
+					font-size:12px;
+					line-height:24px;
+					}
+
+			#techNav .techSearch .catList div:hover,
+			#techNav .techSearch .catList div.active {
+				background:#E7E7E7;
+				color:#000;
+				}
+
+			#techNav .techSearch .catList div.active {
+				background:#E5E5E5;
+				color:#000;
+				}
+
+				#techNav .techSearch .catList div.active .val_sum {
+					font-weight:bold;
+					color:#9E0B0F;
+					}
+
+			#techDirectory #search table {
+				width:100%;
+				}
+
+			#techDirectory #search .field {
+				width:77%;
+				margin:1em 3% 1em 0;
+				}
+
+			#techDirectory #search .fieldname {
+				width:20%;
+				}
+
+			#techDirectory #search input {
+				width:90%;
+				padding:.5em;
+				}
+	
+	#techNav p.instr {
+		margin:0 0 10px 0;
+		font-size:12px;
+		}
+
+	#techNav #search td {
+		padding:.5em 0;
+		}
+
+	#techNav .techSearch tr.selectedRow td {
+		padding:5px;
+		background:#F1F1F1;
+		}
+
+			#techNav .techSearch tr.selectedRow td.selectedComp {
+				width:200px;
+				border-left:10px solid #000;
+				}
+
+			#techNav .techSearch tr.selectedRow td.removeLink {
+				width:10px;
+				}
+
+			#techNav .techSearch tr.selectedRow td.removeLink a {
+				font-weight:bold;
+				cursor:pointer;
+				}
+
+		.techSearch tr#buttons td {
+			padding:5px 0 10px 0;
+			}
+
+	#techNav .submit-product {
+		display:block;
+    		padding:10px;
+		margin:10px 0;
+		font-size:17px;
+		font-weight:bold;
+		text-align:center;	
+	}

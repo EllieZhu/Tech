@@ -1,0 +1,177 @@
+#tooltip {
+    position: absolute;
+    left: 10px;
+    top: 0px;
+    margin-top:-100px;
+    width: 500px;
+    background-color: #fff;
+    opacity: 1;
+    z-index: 999;
+    padding: 7px;
+    pointer-events: none;
+}
+
+#legend {
+    position: absolute;
+    right: -120px;
+    top: 0px;
+    margin-top: -100px;
+    width: 400px;
+    background-color: #fff;
+    opacity: 1;
+    z-index: 999;
+    padding: 7px;
+    pointer-events: none;
+    background: #f5f5f5; 
+}
+ 
+#tooltip.hidden {
+    display: none;
+}
+ 
+#tooltip .tri {
+    position: absolute;
+    bottom: -9px;
+    left: 250px;
+    width: 17px;
+    height: 9px;
+}
+ 
+#tooltip .bottomline {
+    font-size: 16px;
+    line-height: 18px;
+    margin-bottom: 9px;
+}
+ 
+#tooltip .detail {
+    font-size: 14px;
+    line-height: 14px;
+    color: #000;
+}
+
+#tooltip .tooltip_name{
+  font-weight: bold;
+  font-size: 20px;
+  font-family: "Roboto";
+  color: #B92025;
+}
+
+#tooltip .tooltip_category {
+  font-family: "Roboto";
+  font-size: 15px;
+  font-weight: bold;
+}
+ 
+#tooltip .tooltip_description{
+  font-family: "Roboto";
+  font-size: 15px;
+}
+#tooltip table {
+    width: 100%;
+    line-height: 15px;
+    color: #000;
+}
+ 
+#tooltip th, #tooltip td {
+    text-align: left;
+    line-height: 16px;
+    padding: 4px 0;
+}
+ 
+#tooltip table tr:first-child th {
+    border-top: none;
+    font-size: 12px;
+    font-weight: bold;
+    line-height: 16px;
+}
+ 
+#tooltip table td.r {
+    text-align: right;
+}
+
+#box {
+    position: absolute;
+    background: gray;
+    opacity: 0.25;
+    pointer-events: none;
+    display: none;
+}
+ 
+#box.hidden {
+    display: none;
+}
+ 
+#titles table {
+  width: 95%;
+  border-width: 1px;
+  border-color: #666666;
+  text-align: left;
+  margin: 20px;
+}
+
+#titles table th {
+  font-size: 14px;
+  font-weight: normal;
+  border-bottom: 2px solid #444;
+  padding: 10px 8px;
+}
+
+#titles table tr {
+  text-align: left;
+}
+
+#titles table td {
+  border-bottom: 1px solid #CCC;
+  padding: 6px 8px;
+}
+
+#key_container {
+  margin-top: 3px;
+  z-index: 300;
+  position: absolute;
+  background-color: #ddd;
+  clear:both;
+}
+
+.text_note {
+    pointer-events: none;
+    font-family: 'Roboto';
+    font-size: 14px;
+    text-anchor: middle;
+    max-width: 50px;
+    background-color: #fff;
+}
+
+.legend_circle {
+  vertical-align: middle; 
+}
+
+.widget.opened .widget-content{
+border-bottom: 1px solid #CCC;
+}
+
+.rightColumn {
+  float:left !important;
+  width: 65% !important;
+  margin-top: 180px !important; 
+}
+
+.leftColumn{
+  width: 28% !important;
+}
+
+.key {
+  width: 200px;
+}
+
+.note {
+  opacity: 0.7;
+}
+
+g.node circle {
+    cursor  : pointer;
+}
+
+.note:not(:hover){
+  display: none;
+}
