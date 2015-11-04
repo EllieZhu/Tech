@@ -1,0 +1,84 @@
+<!doctype html>
+<!--[if lt IE 7]> <html class="no-js ie6 oldie" lang="en"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js ie7 oldie" lang="en"> <![endif]-->
+<!--[if IE 8]>    <html class="no-js ie8 oldie" lang="en"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <title>Tech Integration Network</title>
+  <meta name="author" content="Ellie Zhu">
+  <link rel="stylesheet" href="finalStyle.css">
+  <link rel="stylesheet" href="cateList.css">
+</head>
+
+<body>
+
+<div class="headlinesReverse">
+<div class="leftColumn">
+<div id="techNav">
+  <div class="lowerBox nomargin control" id="featured">
+    <h3 class="header">Rank Products</h3>
+    <div class="bx-wrapper" style="max-width: 100%;">
+    <input id="size" type="submit" value="By category" class="button2 active">
+    <input id="edge" type="submit" value="By integration" class="button2">
+    <input id="spiral" type="submit" value="By individual" class="button2">
+ <input  id="by_table"type="submit" value="Table view" class="button2">
+    <div class="hspacer-2"></div>
+   </div>
+  </div>
+
+  <div class="techSearch">
+  <div class="lowerBox">
+    <h3 class="header">Find Products<span class="more"><a title="View the full product directory" href="/section/tech?cat=ALL"></a></span></h3>
+    <div class="catList" id="cateList">
+
+    </div>
+    <div class="techToggle" id="search">
+      <form name="ccefsearch" id="techForm2" class="validateForm" method="get" action="/section/tech">
+        <table>
+          <tbody><tr>
+            <td class="field">          
+              <input type="text" name="keywords" value="Keywords...">
+              
+            </td>
+            <td class="fieldname">
+              <input type="submit" value="Search" class="button">
+            </td>
+          </tr>
+        </tbody></table>
+      </form>
+    </div>
+    <a class="submit-product button" href="/section/tech?template=submit">Submit Your Product</a>
+  </div>
+</div>
+
+</div>
+</div>
+<div class="rightColumn">
+<div id="main_tech">
+<div id="tech_integration"></div>
+      <div id="tooltip" class="hidden">
+        <div class="content"></div>
+        <div class="tri"></div>
+      </div>
+     <div id="box" class="hidden"></div>
+      <div id='titles'></div>
+</div>
+</div>
+</div>
+  <!-- Grab Google CDN's jQuery, with a protocol relative URL; fall back to local if offline -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+  <script>window.jQuery || document.write('<script src="js/libs/jquery-1.6.2.min.js"><\/script>')</script>
+
+  <script src="dataParse.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/3.5.6/d3.min.js" charset="utf-8"></script>
+  <!-- end scripts-->
+
+  <!-- Prompt IE 6 users to install Chrome Frame. Remove this if you want to support IE 6.
+       chromium.org/developers/how-tos/chrome-frame-getting-started -->
+  <!--[if lt IE 7 ]>
+    <script src="//ajax.googleapis.com/ajax/libs/chrome-frame/1.0.3/CFInstall.min.js"></script>
+    <script>window.attachEvent('onload',function(){CFInstall.check({mode:'overlay'})})</script>
+  <![endif]-->
+</body>
+</html>
